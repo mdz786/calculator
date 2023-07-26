@@ -1,0 +1,53 @@
+html{
+    background-color: black;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > .name-holder{
+    color: whitesmoke;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.navbar > .links{
+    color:violet;
+}
+
+
+
+button{
+    background-color: orange;
+    border-radius: 30px;
+    border: none;
+    color: whitesmoke;
+    font-size: 40px;
+    width:70px;
+}
+
+button:hover{
+    color: white;
+    background-color:rgb(164, 125, 51);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.row1,.row2,.row3,.row4{
+    margin: 7px;
+}
